@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  background-image: url(../img/philippines-large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+button{
+  position: fixed;
+  top:250px;
+  left: 50px;
+  color: white;
+  background: #108FE8;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 -2px 0 3px darken(#108FE8, 10%) inset, 0 5px 5px rgba(darken(#108FE8, 40%), 0.17), 0 15px rgba(#fff, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+}
+button:hover {
+   background: #333;
+   box-shadow: 0 -2px 0 3px darken(#108FE8, 10%) inset, 0 5px 5px rgba(darken(#108FE8, 40%), 0.17), 0 15px rgba(#fff, 0.32) inset;
+  }
+a{
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.way img{
+  max-width: 640px;
+}
+.menu{
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  left:-10px;
+  top:0px;
+  color: white;
+  background: linear-gradient(to right, #00FFFF, transparent);
+  text-shadow: black 0 0 20px;
+  }
+ul, li{
+  list-style: none;
+  width: 100%;
+
+}
+ul{
+  height: 20px;
+  font-size: 26px;
+}
+li{
+  font-size: 16px;
+  padding-left: 10px;
+}
+.aero{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 210px;
+  margin-right: 10px;
+  color: black;
+  display: block;
+  max-width:1000px;
+  min-width:600px;
+  width:auto;
+}
+.graph{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  display: block;
+  max-width:1000px;
+  min-width:600px;
+  width:auto;
+}
+table, tr, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.num1{
+  background-color: #DAA520;
+  color: white;
+}
+.num2{
+  background-color: 	#F5F5DC;
+}
+td{
+  text-align: center;
+}
+table{
+  width: 100%;
+}
+.aero{
+  padding: 10px;
+  color: white;
+  text-shadow: black 0 0 20px;
+
+}
+.text{
+  background-color: rgba(218, 165, 32, 0.7);
+}
+.skhema{
+  text-align: center;
+}
+  .way,.places1{
+    text-align: center;
+    width: auto;
+}
+.hotel{
+  background-color: rgba(217, 79, 32, 0.7);
+}
+.tab{
+  background-color: rgba(107, 245, 130, 0.7);
+}
+.aero1{
+  background-color: rgba(139, 55, 241, 0.7);
+}
+.places{
+  background-color: rgba(74, 150, 201, 0.7);
+}
+.metro{
+  width: 1000px;
+  height: auto;
+}

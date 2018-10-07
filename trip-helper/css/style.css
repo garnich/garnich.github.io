@@ -1,0 +1,111 @@
+body{
+  margin: 0px;
+  background-image: url(../img/travel.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.flex-conteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+a{
+  font-size: 24px;
+  color:white;
+  text-decoration: none;
+  margin: 0 auto;
+}
+a:hover{
+  font-size: 24 px;
+  color:#7FFFD4;
+
+}
+.main1{
+  width: 240px;
+  min-height: 150px;
+  background-image: url(../img/vietnam.jpg);
+  background-color: grey;
+  text-shadow: black 0 0 20px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 150px;
+}
+.main2{
+  width: 240px;
+  min-height: 150px;
+  background-image: url(../img/Kuala-Lumpur.jpg);
+  background-color: grey;
+  text-shadow: black 0 0 10px;
+  margin: 0 auto;
+  text-align: center;
+  text-align: center;
+  line-height: 150px;
+}
+.main3{
+  width: 240px;
+  min-height: 150px;
+  background-image: url(../img/singapur.jpg);
+  background-color: grey;
+  text-shadow: black 0 0 10px;
+  margin: 0 auto;
+  text-align: center;
+  text-align: center;
+  line-height: 150px;
+}
+.main4{
+  width: 240px;
+  min-height: 150px;
+  background-image: url(../img/philippines.jpg);
+  background-color: grey;
+  text-shadow: black 0 0 10px;
+  margin: 0 auto;
+  text-align: center;
+  text-align: center;
+  line-height: 150px;
+}
+header{
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  opacity: .5;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  line-height:70px;
+  color: red;
+  text-shadow: 4px 4px green;
+}
+.header{
+  background-color: white;  
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  line-height:70px;
+  color: red;
+  text-shadow: 4px 4px green;
+}
+footer{
+  position: absolute;
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  opacity: .5;
+  font-size: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height:40px;
+}
+.social{
+  padding-top: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+.insta{
+  
+}
