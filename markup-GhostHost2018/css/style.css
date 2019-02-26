@@ -247,6 +247,12 @@ input::placeholder{
     font-size: 15px;
     font-family: Lato-Semibold;
 }
+#www{
+    width: 8%;    
+}
+#select{
+    width: 100%;
+}
 select{
     outline:none;
     height: 48px;
